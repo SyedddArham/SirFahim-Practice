@@ -32,7 +32,7 @@ for (let removedGuest of removedGuests) {
 console.log("\n-----------------------------------------------------------------------")
 console.log("Remaining Guests Invited (90 Guests):");
 for (let guest of secondList) {
-    console.log(`Dear ${guest}, you are still invited to Mr. Fahim's wedding.`);
+    console.log("Dear ",guest," you are still invited to Mr. Fahim's wedding.");
 }
 
 //Add back the removed guests due to rain

@@ -29,7 +29,7 @@ console.log("\n-----------------------------------------------------------------
 console.log("Remaining Guests Invited (90 Guests):");
 for (var _b = 0, secondList_2 = secondList; _b < secondList_2.length; _b++) {
     var guest = secondList_2[_b];
-    console.log("Dear ".concat(guest, ", you are still invited to Mr. Fahim's wedding."));
+    console.log("Dear ", guest, " you are still invited to Mr. Fahim's wedding.");
 }
 //Add back the removed guests due to rain
 secondList = secondList.concat(removedGuests);
